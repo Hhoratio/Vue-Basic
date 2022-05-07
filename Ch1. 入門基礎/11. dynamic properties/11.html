@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 動態屬性綁定 v-bind:key='value'。語法糖 :key='value'。 value 的值必須是表達式 -->
+        <!-- 當屬性值會因為業務邏輯發生改變而要改變時。就可以使用 v-bind: 去動態綁定屬性 -->
+        <!-- <div v-bind:id="value"></div> -->
+
+        <!-- :簡寫，v-bind: 的語法糖 -->
+        <a :[arg]="value">後盾人</a>
+    </div>
+    <script src="11.js"></script>
+</body>
+</html>
